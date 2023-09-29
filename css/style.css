@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.mem-sec{
+	padding-top:40px;
+}
+.mem-container
+{
+	width:90%;
+	margin:0 auto;
+}
+
+.mem-row
+{
+	display:flex;
+	gap:3%;
+	padding-top:20px;
+}
+
+
+.mem-col
+{   
+	width:25%;
+	box-shadow:5px 5px 5px #ccc;
+	padding-left:20px;
+	
+}
+
+.mem-img img{
+	width:100%;
+}
+
+.mem-head
+{
+	position:relative;
+	padding-left:20px;
+}
+
+.mem-head h4:before
+{
+	content:"";
+	position:absolute;
+	background-color:#f7c12a;
+	width:150px;
+	height:3px;
+	left:90px;
+	top:10px;
+	
+}
+
+h4
+{
+	color:gray;
+	padding-bottom:10px;
+	
+}
+
+
+
+
+h2
+{
+	padding-bottom:10px;
+}
+
+h6
+{
+	font-size:16px;
+	color:gray;
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+h3
+{
+	padding-top:10px;
+	padding-bottom:5px;
+}
